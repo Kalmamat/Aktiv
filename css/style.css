@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -117,7 +120,7 @@ a {
     margin-bottom: 71px;
 }
 .title_story{
-    position: relative;
+
     text-transform: uppercase;
     color: #48555B;
     text-align: center;
@@ -127,14 +130,21 @@ a {
     letter-spacing: 2.30625px;
     padding-bottom: 60px;
 }
-.title_story::before{
+.title_story-dic{
+    position: relative;
+
+}
+.title_story-dic::before{
     content: '';
     position: absolute;
     border-bottom: 2px solid #00A4E5;
     width: 50px;
     height: 2px;
     top: 35px;
-    left: 447px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
 }
 .row {
     display: flex;
@@ -219,6 +229,9 @@ a {
     color: white;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+}
+.btn:hover{
+    box-shadow: 0 0 30px #00A4E5 ;
 }
 .service_wrap .btn{
     margin-left: 75px;
