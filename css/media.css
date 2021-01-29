@@ -1,0 +1,172 @@
+@media (max-width: 1200px) {
+    .hero_title{
+        font-size: 45px;
+        }
+    .container {
+        padding: 0 15px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .hero_title{
+        font-size: 35px;
+    }
+    .col-6{
+        width: 100%;
+
+    }
+    .col-4 {
+        width: 33.3333%;
+        flex-wrap: wrap;
+        margin: 15px;
+
+    }
+    .subtitle_story{
+        font-size: 18px;
+    }
+    .about_info_item{
+        font-size: 20px;
+    }
+    .get-in-touch_title{
+        font-size: 25px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .hero_title {
+        font-size: 25px;
+    }
+
+    .hero_desc {
+        font-size: 14px;
+    }
+
+    .subtitle_story {
+        font-size: 15px;
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+
+    .about_info_item {
+        font-size: 18px;
+    }
+
+    .service_colm {
+        display: flex;
+        flex-direction: column;
+    }
+    .service_title{
+        font-size: 15px;
+    }
+
+    .service_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .col_our_title{
+        font-size: 14px;
+    }
+    .menu-btn{
+        display: flex;
+    }
+
+    .menu-btn.active span{
+        background-color: transparent;
+    }
+
+
+    .header_menu{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: #00A4E5;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        transition: .6s;
+    }
+    .header_menu.active{
+        left: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .hero_title{
+        font-size: 20px;
+    }
+    .hero_desc{
+        font-size: 12px;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .subtitle_story{
+        font-size: 13px;
+    }
+    .service_title{
+        font-size: 12px;
+    }
+    .col_our_title{
+        font-size: 12px;
+    }
+    .get-in-touch_title{
+        font-size: 20px;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .newsletter_caption{
+        font-size: 18px;
+    }
+    .newsletter_form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter_form_input{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero_title{
+        font-size: 15px;
+    }
+
+    .subtitle_story{
+        font-size: 12px;
+    }
+    .about_info_item{
+        font-size: 14px;
+    }
+    .get-in-touch_title{
+        font-size: 15px;
+    }
+    .footer{
+        display: flex;
+    }
+    .footer_wrapper {
+        flex-direction: column;
+        display: flex;
+    }
+
+}
