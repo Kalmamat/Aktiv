@@ -64,7 +64,9 @@ a {
     line-height: 16px;
     text-transform: uppercase;
 }
-
+.header_menu_item:hover{
+    color: #00A4E5;
+}
 
 .menu-btn{
 
